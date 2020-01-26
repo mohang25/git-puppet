@@ -1,0 +1,1015 @@
+p-172-31-4-75 git-puppet]# cat history.txt |more                                                                                                  
+  117  git clone https://github.com/srini-github/git-commands.git
+  118  git clone https://github.com/srini-hithub/git-commands.git
+  119  pwd
+  120  ls -lrt
+  121  cd git-commands/
+  122  ls
+  123  less commands 
+  124  cd ..
+  125  pwd
+  126  cd git-commands/
+  127  ls -lrt
+  128  cd commands 
+  129  ls
+  130  cd ..
+  131  pwd
+  132  cd git-commands/
+  133  ls
+  134  ls -lrt
+  135  pwd
+  136  cd ..
+  137  ls -lrt
+  138  cd gitcommands/
+  139  ls
+  140  cp git_commands /root/gitcommands/
+  141  cp -R git_commands /root/gitcommands/
+  142  cp -R git_commands /opt
+  143  cd /opt/
+  144  ls -lrt
+  145  cd git_commands/
+  146  ls -lrt
+  147  cd ..
+  148  pwd
+  149  cd /root/
+  150  ls -lrt
+  151  git status
+  152  cd gitcommands/
+  153  ls
+  154  cd git_commands/
+  155  ls
+  156  cd ..
+  157  pwd
+  158  cd gitcommands/
+  159  ls -lrt
+  160  cp -R git_commands /root/git-commands/
+--More-- 
+cd /root/git-commands/
+  162  ls -lrt
+  163  less commands 
+  164  pd
+  165  ls
+  166  ls -lrt
+  167  cd git-commands/
+  168  ls -lrt
+  169  cd git_commands/
+  170  ls -lrt
+  171  less README.md 
+  173  ls -lr
+  174  tless commands 
+  175  less commands 
+  176  pwd
+  177  git status
+  178  pwd
+  179  ls
+  180  cd testrepo
+  181  git status
+  182  git commit
+  183  git push master
+  184  git config
+  185  git config --get-all
+  186  vi manifest.pp 
+  187  openssl passwd -crypt
+  188  vi manifest.pp 
+  189  puppet parser validate manifest.pp
+  190  puppet apply manifest.pp
+  191  vi manifest.pp 
+  192  puppet apply manifest.pp
+  193  id myuser
+  194  ssh mysure@localhost
+  195  ssh myuser@localhost
+  196  exit
+  197  pwd
+  198  exit
+  199  vi manifest.pp 
+  200  puppet parser validate manifest.pp
+  201  5) puppet apply manifest.pp
+  202  puppet apply manifest.pp
+  203  vi manifest.pp 
+  204  pwd
+  205  yum search puppet
+--More--
+um install puppet
+  207  rpm -Uvh https://yum.puppet.com/puppet5/puppet5-release-el-7.noarch.rpm
+  208  yum search puppet
+  209  yum install puppet
+  210  systemctl enable puppet
+  211  systemctl restart  puppet
+  212  git clone https://github.com/srini-hithub.myrepo23.git
+  213  git clone https://github.com/srini-hithub/myrepo23.git
+  214  pwd
+  215  ls
+  216  ls -lrt
+  217  cd /etc/puppetlabs/
+  218  ls -lrt
+  219  systemctl status puppet
+  220  cd /etc/puppetlabs/
+  221  pwd
+  222  cd puppet/
+  223  ls -lrt
+  224  pwd
+  225  less puppet.conf 
+  226  pwd
+  227  puppet --version
+  228  vi manifest.pp
+  229  \
+  230  pwd
+  231  puppet parser validate <manifest.pp>
+  232  vi manifest.pp
+  233  puppet parser validate manifest.pp
+  234  vi manifest.pp
+  235  puppet parser validate manifest.pp
+  236  vi manifest.pp
+  237  puppet parser validate manifest.pp
+  238  vi manifest.pp
+  239  puppet apply manifest.pp --noop
+  240  puppet apply manifest.pp
+  241  5) puppet parser validate manifest.pp
+  242  vi manifest.pp 
+  243  puppet parser validate manifest.pp 
+  244  id myuser
+  245  groups myuser
+  246  puppet apply  manifest.pp 
+  247  vi manifest.pp 
+  248  puppet apply  manifest.pp 
+  249  groups myuser
+  250  cat /etc/group |grep myuser
+  251  cat /etc/passwd |grep myuser
+  252  groups myuser
+  253  pwd
+  254  puppet resource user root
+  255  puppet resource user myuser
+  256  pwd
+  257  ls -lrt
+  258  vi manifest.pp 
+  259  puppet apply manifest.pp 
+  260  su - myuser
+  261  vi manifest.pp 
+  262  vim manifest.pp 
+  263  yum install vim
+  264  vim manifest.pp 
+  265  pupple apply manifest.pp 
+  266  puppet apply manifest.pp 
+  267  exit
+  268  systemctl enable puppetserver
+  269  systemctl restart  puppetserver
+  270  systemctl status puppetserver
+  271  pwd
+  272  cd .ssh/
+  273  ls
+  274  vi conig 
+  275  pwd
+  276  puppet cert --list
+  277  yum install puppetserver
+  278  vi /etc/sysconfig/puppetserver 
+  279  hostname
+  280  cd .ssh/
+  281  pwd
+  282  ls -lrt
+  283  cd conig 
+  284  ls
+  285  ls -lrt
+  286  vi config
+  287  cd ..
+  288  init 6
+  289  free
+  290  free -mh
+  291  puppet cert --list
+  292  pwd
+  293  hostname
+  294  pwd
+  295  puppet cert --list
+  296  systemctl restart puppetserver
+  297  puppet cert list --all
+  298  puppet cert --list
+  299  init 6
+  300  vi manifest.pp 
+  301  puppet apply manifest.pp 
+  302  exit
+  303  puppet cert list --all
+  304  puppet cert sign --all
+  305  puppet cert list --all
+  306  pwd
+  307  cd /etc/puppetlabs/code/environments/production/manifests/
+  308  ls
+  309  vi manifest3.pp 
+  310  ls -tlr
+  311  vi manifest2.pp 
+  312  vi manifest5.pp 
+  313  puppet cert --list
+  314  puppet cert list --all
+  315  puppet cert --list
+  316  puppet cert list --all
+  317  pwd
+  318  ls -lrt
+  319  puppet cert --list
+  320  puppet cert list --all
+  321  cp manifest.pp /etc/puppetlabs/code/environments/production/manifests/
+  322  puppet cert list --all
+  323  hostname
+  324  ifconfig
+  325  puppet config print
+  326  puppet config print|less
+  327  cd .ssh/
+  328  less config
+  329  cd ..
+  330  vi manifest.pp 
+  331  vi manifest2.pp
+  332  cp manifest2.pp /etc/puppetlabs/code/environments/production/manifests/
+  333  cd /etc/puppetlabs/code/environments/production/manifests/
+  334  pwd
+  335  ls
+  336  l -lrt
+  337  puppet apply manifest2.pp 
+--More-- 
+vi manifest.pp 
+  339  vi manifest2.pp.pp 
+  340  vi manifest2.pp
+  341  puppet apply manifest2.pp 
+  342  vi manifest2.pp
+  343  puppet apply manifest2.pp 
+  344  vi /root/myfile123.txt 
+  345  puppet cert list --all
+  346  pwd
+  347  puppet cert list --all
+  348  vi /root/myfile123.txt 
+  349  vi manifest2.pp
+  350  puppet apply manifest2.pp 
+  351  vi manifest2.pp
+  352  puppet apply manifest2.pp 
+  353  vi manifest2.pp
+  354  puppet apply manifest2.pp 
+  355  vi manifest3.pp
+  356  puppet apply manifest3.pp 
+  357  vi manifest3.pp
+  358  cd /etc/puppetlabs/code/environments/production/manifests/
+  359  vi manifest5.pp
+  360  puppet apply manifest5.app
+  361  vi manifest5.pp
+  362  pwd
+  363  puppet apply manifest5.app
+  364  pwd
+  365  ls -lrt
+  366  puppet parser validate manifest.pp 
+  367  puppet apply manifest.pp 
+  368  cd /var/www
+  369  vi manifest5.pp
+  370  puppet apply manifest.pp 
+  371  systemctl httpd status
+  372  systemctl status httpd
+  373  puppet apply manifest.pp 
+  374  vi manifest5.pp
+  375  hostname
+  376  puppet cert list --all
+  377  systemctl restart puppetserver
+  378  puppet cert list --all
+  379  systemctl restart puppetserver
+  380  vi /etc/sysconfig/puppetserver 
+  381  systemctl restart puppetserver
+  382  puppet cert list --all
+  383  puppet cert sign --all
+  384  puppet cert list --all
+  385  hostname
+  386  puppet cert list --all
+  387  history
+  388  pwd
+  389  52.66.87.199
+  390  exit
+  391  vi /etc/ssh/sshd_config 
+  392  systemctl sshd restart
+  393  systemctl restart ssh
+  394  systemctl restart ssh.server
+  395  systemctl status --all
+  396  systemctl status |grep ssh
+  397  systemctl reload sshd.service
+  398  pwd
+  399  history
+  400  exit
+  401  init 0
+  402  cd /etc/puppetlabs/code/environments/
+  403  ls
+  404  cd production/
+  405  cd manifests/
+  406  ls
+  407  touch site.pp
+  408  vi site.pp
+  409  hisotry
+  410  history
+  411  less site.pp 
+  412  q
+  413  owd
+  414  cd /
+  415  cd /etc/puppetlabs/code/environments/production/manifests/
+  416  ls
+  417  vi site.pp 
+  418  vi mymanifest55.pp
+  419  puppet parser mymanifest55.pp 
+  420  puppet parser mymanifest55.pp --noop
+  421  puppet apply mymanifest55.pp --noop
+  422  vi mymanifest55.pp
+  423  puppet apply mymanifest55.pp --noop
+  424  factory
+  425  factor
+  426  facter
+  427  pwd
+  428  cd /etc/puppetlabs/code/environments/production/manifests/
+  429  ls
+  430  hostname
+  431  vi site.pp 
+  432  puppet config set run interval 60
+  433  history
+  434  vi /etc/ssh/sshd_config 
+  435  cd /root/
+  436  host_deploy
+  437  hostname
+  438  vi host_deploy
+  439  vi hostbase_deploy
+  440  cd -
+  441  cd /etc/puppetlabs/code/environments/production/manifests/
+  442  ls
+  443  vi site.pp 
+  444  hostname
+  445  vi site.pp 
+  446  puppet agent -t
+  447  pwd
+  448  cd /etc/puppetlabs/code/environments/production/manifests/
+  449  ls -lrt
+  450  vim site.pp 
+  451  pwd
+  452  vim site.pp 
+  453  vim ~/.vimrc
+  454  ls -lrt ~/.viminfo 
+  455  less ~/.vimrc
+  456  vi ~/.vimrc
+  457  exit
+  458  cd /etc/puppetlabs/code/environments/production/manifests/
+  459  ls -lrt
+  460  vim site.pp 
+  461  vi site.pp 
+  462  vim site.pp 
+  463  hostname
+  464  cd /etc/puppetlabs/code/environments/production/manifests/
+  465  ls
+  466  ls -lrt
+  467  vim site.pp 
+  468  init 0
+  469  cd /etc/puppetlabs/code/environments/production/
+  cd manifests/
+  471  ls -lrt
+  472  less site.pp 
+  473  vim site.pp 
+  474  cp site.pp /root/
+  475  mv /root/site.pp /root/site2.pp
+  476  vi /root/site2.pp 
+  477  vim /root/site2.pp 
+  478  puppet module generate mohan-http
+  479  pwd
+  480  ls -lrt
+  481  cd httpd
+  482  ls
+  483  cd http/
+  484  ls
+  485  ls -lrt
+  486  less metadata.json 
+  487  cd /etc/n 
+  488  cd /root/
+  489  cd http/manifests/
+  490  ls -lrt
+  491  pwd
+  492  vim init.pp 
+  493  vi init.pp 
+  494  less init.pp 
+  495  pwd
+  496  cd http/manifests/
+  497  ls -lrt
+  498  vi init.pp 
+  499  puppet parser validate init.pp
+  500  vim init.pp pp
+  501  puppet parser validate init.pp
+  502  puppet module build init.pp
+  503  pwd
+  504  cd ..
+  505  puppet module build httpd/
+  506  puppet module build httpd
+  507  pwd
+  508  ls 
+  509  puppet module build http
+  510  puppet module install  /root/http/pkg/mohan-http-0.1.0.tar.gz
+  511  puppet module list
+  512  clear
+  513  pwd
+--More-- '
+pwd
+  514  ls
+  515  ls -lrt
+  516  puppet module list
+  517  pwd
+  518  cd /etc/puppetlabs/code/environments/production/manifests/
+  519  pwd
+  520  ls -lrt
+  521  vi site.pp 
+  522  mv site.pp siteold.pp
+  523  puppet module list
+  524  cd /etc/puppetlabs/code/environments/production/module
+  525  pwd
+  526  cd ..
+  527  ls -lrt
+  528  cd modules/
+  529  ls -lrt
+  530  cd ..
+  531  cd manifests/
+  532  ls -lrt
+  533  puppet module list
+  534  pwd
+  535  cd ..
+  536  cd modules/
+  537  ls -lrt
+  538  ls
+  539  pwd
+  540  ls -lrt
+  541  cd http/
+  542  ls
+  543  ls -lrt
+  544  puppet cert list --all
+  545  puppet module
+  546  pwd
+  547  clear
+  548  puppet module generate mohan-http
+  549  pwd
+  550  cd /etc/puppetlabs/code/modules/
+  551  ls
+  552  cd ..
+  553  pwd
+  554  ls -lrt
+  555  cd ..
+  556  cd /etc/puppetlabs/code/environments/production/
+  557  ls -lrt
+cd manifests/
+  559  ls -lrt
+  560  vi site.pp
+  561  less site.pp
+  562  !
+  563  pwd
+  564  less site.pp 
+  565  vi site.pp 
+  566  pwd
+  567  cd ..
+  568  ls
+  569  cd modules/
+  570  ls
+  571  ls 0lrt
+  572  less http/
+  573  cd ..
+  574  pwd
+  575  cd manifests/
+  576  ls
+  577  ls -lrt
+  578  vi site.pp 
+  579  pwd
+  580  ls -lrt
+  581  vi site.pp 
+  582  puppet module list
+  583  clear
+  584  pwd
+  585  vi site.pp 
+  586  puppet module list
+  587  ls -lrt
+  588  less site.pp
+  589  Puppet cert    list
+  590  puppet cert list
+  591  puppet -cert list
+  592  puppet ?
+  593  pwd
+  594  ls -lrt
+  595  puppet module generate mohan
+  596  cd
+  597  pwd
+  598  puppet module generate mohan-newftp
+  599  puppet module generate mohan-newftp --skip-interview
+  600  yum install vsftpd
+  601  pwd
+ yum install vsftpd
+  601  pwd
+  602  ls -lrt
+  603  cd newftp/
+  604  ls -lrt
+  605  mkdir -p files
+  606  cp /etc/redhat-release /root/newftp/files/
+  607  ls -lrt
+  608  cd manifests/
+  609  vi init.pp 
+  610  pwd
+  611  cd ..
+  612  ;s
+  613  ls -lrt
+  614  cd manifests/
+  615  ls
+  616  ls -lrt
+  617  cd ..
+  618  cd files/
+  619  ls
+  620  less redhat-release 
+  621  !
+  622  pwd
+  623  cd ..
+  624  cd manifests/
+  625  less init.pp 
+  626  vim init.pp 
+  627  pwd
+  628  less init.pp 
+  629  pwd
+  630  cd ..
+  631  puppet parser validate newftp
+  632  puppet parser validate newftp/
+  633  pwd
+  634  cd ..
+  635  puppet parser validate newftp/
+  636  vi newftp/manifests/init.pp 
+  637  vim newftp/manifests/init.pp 
+  638  puppet parser validate newftp/
+  639  pwd
+  640  puppet module build vsftp
+  641  puppet module build vsftpd
+  642  pwd
+  643  cd newftp/
+  644  ls
+  645  cd manifests/
+  646  puppet module build fsftpd
+  647  puppet module build vsftpd
+  648  puppet module build vsftp
+  649  pwd
+  650  cd ..
+  651  ls -lrt
+  652  pwd
+  653  cd ..
+  654  puppet module install newftp
+  655  ls -lrt
+  656  puppet module build newftp
+  657  puppet module install /root/newftp/pkg/mohan-newftp-0.1.0.tar.gz
+  658  pwd
+  659  vim newftp/manifests/init.pp 
+  660  puppet module uninstall mohan-vsftpd
+  661  puppet module uninstall mohan-vsftp
+  662  pwd
+  663  ls
+  664  puppet module uninstall mohan-newftp
+  665  puppet module build newftp
+  666  puppet module install /root/newftp/pkg/mohan-newftp-0.1.0.tar.gz
+  667  puppet module list
+  668  cd /etc/puppetlabs/code/environments/production/manifests/
+  669  ls -lrt
+  670  vi site.pp
+  671  vim site.pp
+  672  pwd
+  673  cd ..
+  674  cd modules/
+  675  ls
+  676  cd newftp/
+  677  ls
+  678  ls -lrt
+  679  cd manifests/
+  680  ls -lrt
+  681  less init.pp 
+  682  !
+  683  wpd
+  684  pwd
+  685  ls
+  686  ls -lrt
+  687  less init.pp 
+  688  pwd
+  689  cd ..
+  690  ls -lrt
+  691  cd ..
+  692  ls -lrt
+  693  pwd
+  694  cd ..
+  695  cd manifests/
+  696  ls -lrt
+  697  vi site.pp 
+  698  pwd
+  699  puppet module list
+  700  vi site.pp 
+  701  puppet cert list --all
+  702  pwd
+  703  ls
+  704  vi site.pp 
+  705  puppet module list
+  706  puppet cert sign --all
+  707  clear
+  708  vi site.pp 
+  709  cd /etc/puppetlabs/code/environments/production/manifests/
+  710  ls
+  711  cd ../
+  712  cd modules/
+  713  ls
+  714  cd newftp/
+  715  cd manifests/
+  716  ls
+  717  vi init.pp 
+  718  pwd
+  719  cd 
+  720  ls
+  721  cd /etc/puppetlabs/code/environments/production/
+  722  ls
+  723  cd manifests/
+  724  ls
+  725  ls -ltr
+  726  cp *.* /root
+  727  mkdir -p /root/manifests
+  728  cp *.* /root/manifests
+  729  cp /root/manifests/site.pp .
+  730  rm -rf *
+  731  cp /root/manifests/site.pp .
+  732  pwd
+  733  cd /etc/puppetlabs/code/environments/production/
+-
+cd /etc/puppetlabs/code/environments/production/
+  734  ls -lrt
+  735  cd manifests/
+  736  ls -lrt
+  737  less site.pp site.pp 
+  738  pwd
+  739  pwd
+  740  puppet module generate mymodule
+  741  puppet module generate pra-mymodule
+  742  puppet module generate pra-mymodule --skip-interview
+  743  pwd
+  744  cd ..
+  745  cd 
+  746  pwd
+  747  ls
+  748  cd mymodule/
+  749  ls -lrt
+  750  cd manifests
+  751  ls -lrt
+  752  vim init.pp 
+  753  pwd
+  754  vi subclass1.pp
+  755  vim subclass1.pp
+  756  pwd
+  757  ls -lrt
+  758  vi subclass1.pp 
+  759  vim subclass.pp
+  760  less subclass
+  761  less subclass.pp 
+  762  ls -lrt
+  763  mv subclass.pp subclass2.pp
+  764  ls -lrt
+  765  less subclass.pp
+  766  less subclass2.pp
+  767  vim subclass3.pp
+  768  vim subclass4.pp
+  769  less subclass4.pp
+  770  !
+  771  vim subclass3.pp
+  772  less subclass1.pp 
+  773  less subclass2.pp 
+  774  pwd
+  775  ls -lrt
+  776  vi init.pp 
+  777  less subclass1.pp 
+  778  pwd
+  779  cd ..
+  780  puppet parser valide mymodule
+  781  pwd
+  782  puppet parser valide pra-mymodule
+  783  puppet parser validate mymodule
+  784  vim mymodule/manifests/subclass1.pp 
+  785  puppet parser validate mymodule
+  786  vim mymodule/manifests/subclass4.pp 
+  787  puppet parser validate mymodule
+  788  vim mymodule/manifests/subclass4.pp
+  789  puppet parser validate mymodule
+  790  puppet module build mymodule
+  791  puppet module install /root/mymodule/pkg/pra-mymodule-0.1.0.tar.gz 
+  792  pwd
+  793  cd /etc/puppetlabs/code/environments/production/manifests/
+  794  ls -lrt
+  795  vi site.pp 
+  796  pwd
+  797  ls -lrt
+  798  vi site.pp 
+  799  pwd
+  800  vi site.pp 
+  801  puppet module search httpd
+  802  puppet module search install thias-apache_httpd
+  803  puppet module install thias-apache_httpd
+  804  cd /etc/puppetlabs/code/environments/production/modules
+  805  ls -lrt
+  806  cd apache_httpd/
+  807  ls
+  808  ls -lrt
+  809  cd manifests/
+  810  ls
+  811  ls -lrt
+  812  less init.pp 
+  813  init 0
+  814  pwd
+  815  puppet module generate pra-module2
+  816  cd mymodule2
+  817  puppet module generate pra-module2
+  818  cd module2
+  819  ls -lrt
+  820  vim package.pp
+  821  vim config.pp
+  822  vim service.pp
+  823  pwd
+  824  less package.pp 
+  825  less service.pp 
+  826  vi service.pp 
+  827  less service.pp 
+  828  ls -lrt
+  829  less config.pp 
+  830  pwd
+  831  cd manifests
+  832  ls
+  833  vi init.pp 
+  834  pwd
+  835  puppet parser validate mymodule2
+  836  cd 
+  837  pwd
+  838  puppet parser validate mymodule2
+  839  puppet parser validate mymodule2pwd
+  840  pwd
+  841  cd mymodule2
+  842  ls -lrt
+  843  puppet parser validate module2
+  844  cd module2/
+  845  vi config.pp 
+  846  pwd
+  847  cd ..
+  848  puppet paser validate module2
+  849  puppet parser validate module2
+  850  vim /root/module2/service.pp 
+  851  puppet parser validate module2
+  852  vim /root/module2/service.pp 
+  853  puppet parser validate module2
+  854  puppet module install module2
+  855  puppet module build  module2
+  856  puppet module install /root/module2/pkg/pra-module2-0.1.0.tar.gz 
+  857  cd /etc/puppetlabs/code/environments/production/manifests/
+  858  ls -lrt
+  859  vi site.pp 
+  860  pwd
+  861  cd /root/mymodule2
+  862  cd /root/module2/
+  863  ls
+  864  cd manifests/
+  865  vi init.pp
+--More-- 
+pwd
+  867  cd ..
+  868  puppet module uninstall pra-module2
+  869  puppet module build module2
+  870  pwd
+  871  cd ..
+  872  puppet module build module2
+  873  puppet module install /root/module2/pkg/pra-module2-0.1.0.tar.gz 
+  874  cd /etc/puppetlabs/code/environments/production/manifests/
+  875  ls
+  876  less site.pp 
+  877  cd 
+  878  pwd
+  879  cd module2
+  880  ls
+  881  cd manifests/
+  882  vi init.pp 
+  883  vim init.pp 
+  884  pwd
+  885  cd ..
+  886  pwd
+  887  mkdir -p templates
+  888  pwd
+  889  cd templates/
+  890  vim myhomepage.erb
+  891  pwd
+  892  cd ..
+  893  pwd
+  894  vi config.pp 
+  895  pwd
+  896  cd ..
+  897  factoer fqdn
+  898  facter fqdn
+  899  pwd
+  900  puppet module uninstall module2
+  901  puppet module uninstall pra-module2
+  902  puppet module build module2
+  903  puppet module install /root/module2/pkg/pra-module2-0.1.0.tar.gz 
+  904  pwd
+  905  cd modue2
+  906  cd module2
+  907  ls
+  908  vim init.pp
+  909  cd manifests
+--More-- 
+vi init.pp 
+  911  cd ..
+  912  pwd
+  913  cd ..
+  914  ls -lrt
+  915  cd mymodule
+  916  ls
+  917  cd manifests/
+  918  ls -lrt
+  919  vi init.pp 
+  920  cd..
+  921  pwd
+  922  cd ..
+  923  pwd
+  924  cd ..
+  925  cd module2
+  926  ls
+  927  cd manifests/
+  928  ls
+  929  pwd
+  930  vi init.pp 
+  931  ls
+  932  pwd
+  933  ls
+  934  pwd
+  935  ls
+  936  cd 
+  937  ls
+  938  cd -
+  939  pwd
+  940  ls
+  941  cd -
+  942  ls
+  943  cd module2/
+  944  ls
+  945  cd manifests/
+  946  ls
+  947  cd 
+  948  find / -name package.pp
+  949  cd puppet parser validate
+  950  cd /root/module2/
+  951  ls
+  952  mv package.pp manifests/
+  953  mv service.pp ./manifests/
+  954  mv config.pp ./manifests/
+  955  pwd
+  956  cd manifests/
+  957  ls -lrt
+  958  puppet module uninstall module2
+  959  puppet module uninstall pra-module2
+  960  puppet module build module2
+  961  cd ..
+  962  puppet module build module2
+  963  puppet module install /root/module2/pkg/pra-module2-0.1.0.tar.gz 
+  964  pwd
+  965  ls -lrt
+  966  less hostbase_deploy 
+  967  pwd
+  968  cd roo
+  969  cd /root/
+  970  ls -lrt
+  971  cd mymodule/
+  972  ls -lrt
+  973  less metadata.json 
+  974  cd manifests/
+  975  ls 0krt
+  976  ls -lrt
+  977  less init.pp 
+  978  less subclass1.pp 
+  979  less subclass2.pp 
+  980  less subclass1.pp 
+  981  less subclass2.pp 
+  982  less subclass3.pp 
+  983  less subclass4.pp 
+  984  pwd
+  985  cd
+  986  puppet resource dependency
+  987  puppet-describe resource
+  988  puppet-describe resource user
+  989  python
+  990  yum install ansible
+  991  ssh-keygen -t rsa
+  992  cd /root/.ssh/
+  993  cat id_rsa.pub 
+  994  ssh ec2-35-154-57-0.ap-south-1.compute.amazonaws.com date
+  995  hostname
+  996  ssh ip-172-31-5-224.ap-south-1.compute.internal date
+  997  pwd
+--More-- 
+pwd
+  998  ls -lrt
+  999  git
+ 1000  pwd
+ 1001  git show
+ 1002  pwd
+ 1003  ls -lrt
+ 1004  pwd
+ 1005  git
+ 1006  git checkout
+ 1007  git push
+ 1008  git login
+ 1009  git help
+ 1010  hit status
+ 1011  git status
+ 1012  git init
+ 1013  git -v
+ 1014  pwd
+ 1015  mkdir Git-Puppet
+ 1016  ls -lrt
+ 1017  mv * Git-Puppet/
+ 1018  mv * -R Git-Puppet/
+ 1019  mv * /root/Git-Puppet/
+ 1020  mv -R * /root/Git-Puppet/
+ 1021  ls -lrt
+ 1022  pwd
+ 1023  ls
+ 1024  cd Git-Puppet/
+ 1025  ls
+ 1026  ls -lrt
+ 1027  cd ..
+ 1028  cd /root/
+ 1029  ls
+ 1030  cd *
+ 1031  mkdir configgiles
+ 1032  cd /etc/
+ 1033  cp -R puppetlabs /root/Git-Puppet/configgiles/
+ 1034  pwd
+ 1035  cd /opt/
+ 1036  ls
+ 1037  ls -lrt
+ 1038  cp -R /root/Git-Puppet/configgiles/
+ 1039  mv -R * /root/Git-Puppet/configgiles/
+ 1040  mv * -R /root/Git-Puppet/configgiles/
+ 1041  ls -lrt
+ 1042  mv * /root/Git-Puppet/configgiles/
+ 1043  mv puppetlabs puppetlabs2
+ 1044  mv * /root/Git-Puppet/configgiles/
+ 1045  pwd
+ 1046  cd 
+ 1047  pwd
+ 1048  git clone https://github.com/mohang25/git-puppet.git
+ 1049  pwd
+ 1050  cd git-puppet/
+ 1051  ls -lrt
+ 1052  cd ..
+ 1053  pwd
+ 1054  ls -lrt
+ 1055  cp Git-Puppet /root/git-puppet/
+ 1056  cp -R Git-Puppet /root/git-puppet/
+ 1057  cd git-puppet/
+ 1058  git-repository
+ 1059  pwd
+ 1060  ls -lrt
+ 1061  git save
+ 1062  git push
+ 1063  echo "# git-puppet" >> README.md
+ 1064  git init
+ 1065  git add README.md
+ 1066  git commit
+ 1067  git commit -m "my commint"
+ 1068  git remote add origin https://github.com/mohang25/git-puppet.git
+ 1069  git push -u origin master
+ 1070  pwd
+ 1071  ls -lrt
+ 1072  cd Git-Puppet/
+ 1073  ls -lrt
+ 1074  cd ..
+ 1075  git init .
+ 1076  pwd
+ 1077  ls -lrt
+ 1078  cd Git-Puppet/
+ 1079  mv * /root/git-puppet/
+ 1080  ls -lrt
+ 1081  cd ..
+ 1082  ls -lrt
+ 1083  git git init
+ 1084  git init
+ 1085  git clone
+ 1086  git push -u origin master
+ 1087  pwd
+ 1088  ls -lrt
+ 1089  mkdir test
+ 1090  git push
+ 1091  pwd
+ 1092  ls -lrt
+ 1093  git cline .
+ 1094  git clone .
+ 1095  pwd
+ 1096  cd ..
+ 1097  git clone git-puppet/
+ 1098  git clone git-puppet
+ 1099  pwd
+ 1100  cd git-puppet/
+ 1101  ls -lrt
+ 1102  touch test3
+ 1103  git checkout
+ 1104  git clone https://github.com/mohang25/git-puppet.git
+ 1105  pwd
+ 1106  git push
+ 1107  pwd
+ 1108  ls -lrt
+ 1109  pwd
+ 1110  git add *
+ 1111  git commint -m "git-puppet"
+ 1112  git commit -m "git-puppet"
+ 1113  git push -u origin master
+ 1114  pwd
+ 1115  git push origin master
+ 1116  history > histore.txt
+
+√
