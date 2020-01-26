@@ -1,0 +1,289 @@
+--- !ruby/object:Puppet::Transaction::Report
+host: ip-172-31-4-75.ap-south-1.compute.internal
+time: '2019-12-01T10:10:31.905002956+00:00'
+configuration_version: 1575195031
+transaction_uuid: a5939735-9488-4165-9379-245851e6cd6c
+report_format: 10
+puppet_version: 5.5.17
+status: unchanged
+transaction_completed: true
+noop: false
+noop_pending: false
+environment: production
+logs:
+- level: notice
+  message: Applied catalog in 0.06 seconds
+  source: Puppet
+  tags:
+  - notice
+  time: '2019-12-01T10:10:31.990407362+00:00'
+  file: 
+  line: 
+metrics:
+  resources:
+    name: resources
+    label: Resources
+    values:
+    - - total
+      - Total
+      - 8
+    - - skipped
+      - Skipped
+      - 0
+    - - failed
+      - Failed
+      - 0
+    - - failed_to_restart
+      - Failed to restart
+      - 0
+    - - restarted
+      - Restarted
+      - 0
+    - - changed
+      - Changed
+      - 0
+    - - out_of_sync
+      - Out of sync
+      - 0
+    - - scheduled
+      - Scheduled
+      - 0
+    - - corrective_change
+      - Corrective change
+      - 0
+  time:
+    name: time
+    label: Time
+    values:
+    - - user
+      - User
+      - 0.001966937
+    - - schedule
+      - Schedule
+      - 0.023542095
+    - - filebucket
+      - Filebucket
+      - 8.9703e-05
+    - - config_retrieval
+      - Config retrieval
+      - 0.18326955
+    - - transaction_evaluation
+      - Transaction evaluation
+      - 0.03021139999998468
+    - - catalog_application
+      - Catalog application
+      - 0.056711094999968736
+    - - total
+      - Total
+      - 0.057030803
+  changes:
+    name: changes
+    label: Changes
+    values:
+    - - total
+      - Total
+      - 0
+  events:
+    name: events
+    label: Events
+    values:
+    - - total
+      - Total
+      - 0
+    - - failure
+      - Failure
+      - 0
+    - - success
+      - Success
+      - 0
+resource_statuses:
+  User[myuser]:
+    title: myuser
+    file: "/root/manifest.pp"
+    line: 1
+    resource: User[myuser]
+    resource_type: User
+    provider_used: useradd
+    containment_path:
+    - Stage[main]
+    - Main
+    - User[myuser]
+    evaluation_time: 0.001966937
+    tags:
+    - user
+    - myuser
+    - class
+    time: '2019-12-01T10:10:31.939212277+00:00'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  Schedule[puppet]:
+    title: puppet
+    file: 
+    line: 
+    resource: Schedule[puppet]
+    resource_type: Schedule
+    provider_used: 
+    containment_path:
+    - Schedule[puppet]
+    evaluation_time: 7.9762e-05
+    tags:
+    - schedule
+    - puppet
+    time: '2019-12-01T10:10:31.941552235+00:00'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  Schedule[hourly]:
+    title: hourly
+    file: 
+    line: 
+    resource: Schedule[hourly]
+    resource_type: Schedule
+    provider_used: 
+    containment_path:
+    - Schedule[hourly]
+    evaluation_time: 6.6604e-05
+    tags:
+    - schedule
+    - hourly
+    time: '2019-12-01T10:10:31.941698320+00:00'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  Schedule[daily]:
+    title: daily
+    file: 
+    line: 
+    resource: Schedule[daily]
+    resource_type: Schedule
+    provider_used: 
+    containment_path:
+    - Schedule[daily]
+    evaluation_time: 5.4601e-05
+    tags:
+    - schedule
+    - daily
+    time: '2019-12-01T10:10:31.941830399+00:00'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  Schedule[weekly]:
+    title: weekly
+    file: 
+    line: 
+    resource: Schedule[weekly]
+    resource_type: Schedule
+    provider_used: 
+    containment_path:
+    - Schedule[weekly]
+    evaluation_time: 5.1927e-05
+    tags:
+    - schedule
+    - weekly
+    time: '2019-12-01T10:10:31.941964954+00:00'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  Schedule[monthly]:
+    title: monthly
+    file: 
+    line: 
+    resource: Schedule[monthly]
+    resource_type: Schedule
+    provider_used: 
+    containment_path:
+    - Schedule[monthly]
+    evaluation_time: 0.0232216
+    tags:
+    - schedule
+    - monthly
+    time: '2019-12-01T10:10:31.942085705+00:00'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  Schedule[never]:
+    title: never
+    file: 
+    line: 
+    resource: Schedule[never]
+    resource_type: Schedule
+    provider_used: 
+    containment_path:
+    - Schedule[never]
+    evaluation_time: 6.7601e-05
+    tags:
+    - schedule
+    - never
+    time: '2019-12-01T10:10:31.965422848+00:00'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  Filebucket[puppet]:
+    title: puppet
+    file: 
+    line: 
+    resource: Filebucket[puppet]
+    resource_type: Filebucket
+    provider_used: 
+    containment_path:
+    - Filebucket[puppet]
+    evaluation_time: 8.9703e-05
+    tags:
+    - filebucket
+    - puppet
+    time: '2019-12-01T10:10:31.965591568+00:00'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+corrective_change: false
+catalog_uuid: df1fa11b-db66-4ce9-9032-e0101ac7aba8
+cached_catalog_status: not_used

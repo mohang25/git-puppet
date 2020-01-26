@@ -1,0 +1,480 @@
+--- !ruby/object:Puppet::Transaction::Report
+host: ip-172-31-5-224.ap-south-1.compute.internal
+time: '2019-12-08T10:31:44.179708954Z'
+configuration_version: 1575716987
+transaction_uuid: d696cad8-0518-4a91-ab03-1f53a92b8c2a
+report_format: 10
+puppet_version: 5.5.17
+status: unchanged
+transaction_completed: true
+noop: false
+noop_pending: false
+environment: production
+logs:
+- level: err
+  message: 'Could not retrieve catalog from remote server: Error 500 on SERVER: Server
+    Error: Evaluation Error: Missing title. The title expression resulted in undef
+    (file: /etc/puppetlabs/code/environments/production/manifests/site.pp, line: 18,
+    column: 8) on node ip-172-31-5-224.ap-south-1.compute.internal'
+  source: Puppet
+  tags:
+  - err
+  time: '2019-12-08T10:31:44.610361634Z'
+  file:
+  line:
+- level: notice
+  message: Applied catalog in 0.14 seconds
+  source: Puppet
+  tags:
+  - notice
+  time: '2019-12-08T10:31:45.429149135Z'
+  file:
+  line:
+metrics:
+  resources:
+    name: resources
+    label: Resources
+    values:
+    - - total
+      - Total
+      - 14
+    - - skipped
+      - Skipped
+      - 0
+    - - failed
+      - Failed
+      - 0
+    - - failed_to_restart
+      - Failed to restart
+      - 0
+    - - restarted
+      - Restarted
+      - 0
+    - - changed
+      - Changed
+      - 0
+    - - out_of_sync
+      - Out of sync
+      - 0
+    - - scheduled
+      - Scheduled
+      - 0
+    - - corrective_change
+      - Corrective change
+      - 0
+  time:
+    name: time
+    label: Time
+    values:
+    - - user
+      - User
+      - 0.002035379
+    - - file
+      - File
+      - 0.005757897
+    - - group
+      - Group
+      - 0.00028599
+    - - package
+      - Package
+      - 0.000339875
+    - - service
+      - Service
+      - 0.01064433
+    - - schedule
+      - Schedule
+      - 0.0005522470000000001
+    - - filebucket
+      - Filebucket
+      - 9.2414e-05
+    - - node_retrieval
+      - Node retrieval
+      - 0.12552906200289726
+    - - plugin_sync
+      - Plugin sync
+      - 0.11671840299823089
+    - - fact_generation
+      - Fact generation
+      - 0.10779408200323815
+    - - convert_catalog
+      - Convert catalog
+      - 0.6771557760002906
+    - - config_retrieval
+      - Config retrieval
+      - 0.0019231679980293848
+    - - transaction_evaluation
+      - Transaction evaluation
+      - 0.1319799420016352
+    - - catalog_application
+      - Catalog application
+      - 0.13941582599363755
+    - - total
+      - Total
+      - 1.245837748
+  changes:
+    name: changes
+    label: Changes
+    values:
+    - - total
+      - Total
+      - 0
+  events:
+    name: events
+    label: Events
+    values:
+    - - total
+      - Total
+      - 0
+    - - failure
+      - Failure
+      - 0
+    - - success
+      - Success
+      - 0
+resource_statuses:
+  User[myuser]:
+    title: myuser
+    file: "/etc/puppetlabs/code/environments/production/manifests/manifest.pp"
+    line: 1
+    resource: User[myuser]
+    resource_type: User
+    provider_used: useradd
+    containment_path:
+    - Stage[main]
+    - Main
+    - User[myuser]
+    evaluation_time: 0.002035379
+    tags:
+    - user
+    - myuser
+    - class
+    time: '2019-12-08T10:31:45.298479852Z'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  File[/root/myfile123.txt]:
+    title: "/root/myfile123.txt"
+    file: "/etc/puppetlabs/code/environments/production/manifests/manifest2.pp"
+    line: 1
+    resource: File[/root/myfile123.txt]
+    resource_type: File
+    provider_used: posix
+    containment_path:
+    - Stage[main]
+    - Main
+    - File[/root/myfile123.txt]
+    evaluation_time: 0.001619298
+    tags:
+    - file
+    - class
+    time: '2019-12-08T10:31:45.300681942Z'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  Group[mygroup]:
+    title: mygroup
+    file: "/etc/puppetlabs/code/environments/production/manifests/manifest3.pp"
+    line: 1
+    resource: Group[mygroup]
+    resource_type: Group
+    provider_used: groupadd
+    containment_path:
+    - Stage[main]
+    - Main
+    - Group[mygroup]
+    evaluation_time: 0.00028599
+    tags:
+    - group
+    - mygroup
+    - class
+    time: '2019-12-08T10:31:45.302601386Z'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  Package[httpd]:
+    title: httpd
+    file: "/etc/puppetlabs/code/environments/production/manifests/manifest5.pp"
+    line: 1
+    resource: Package[httpd]
+    resource_type: Package
+    provider_used: yum
+    containment_path:
+    - Stage[main]
+    - Main
+    - Package[httpd]
+    evaluation_time: 0.000339875
+    tags:
+    - package
+    - httpd
+    - class
+    time: '2019-12-08T10:31:45.397912562Z'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  File[/var/www/html/index.html]:
+    title: "/var/www/html/index.html"
+    file: "/etc/puppetlabs/code/environments/production/manifests/manifest5.pp"
+    line: 5
+    resource: File[/var/www/html/index.html]
+    resource_type: File
+    provider_used: posix
+    containment_path:
+    - Stage[main]
+    - Main
+    - File[/var/www/html/index.html]
+    evaluation_time: 0.002021031
+    tags:
+    - file
+    - class
+    time: '2019-12-08T10:31:45.398436778Z'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  Service[httpd]:
+    title: httpd
+    file: "/etc/puppetlabs/code/environments/production/manifests/manifest5.pp"
+    line: 11
+    resource: Service[httpd]
+    resource_type: Service
+    provider_used: systemd
+    containment_path:
+    - Stage[main]
+    - Main
+    - Service[httpd]
+    evaluation_time: 0.01064433
+    tags:
+    - service
+    - httpd
+    - class
+    time: '2019-12-08T10:31:45.400718247Z'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  File[/root/ad-hocfile]:
+    title: "/root/ad-hocfile"
+    file: "/etc/puppetlabs/code/environments/production/manifests/site.pp"
+    line: 8
+    resource: File[/root/ad-hocfile]
+    resource_type: File
+    provider_used: posix
+    containment_path:
+    - Stage[main]
+    - Main
+    - Node[ip-172-31-5-224.ap-south-1.compute.internal]
+    - File[/root/ad-hocfile]
+    evaluation_time: 0.002117568
+    tags:
+    - file
+    - node
+    - ip-172-31-5-224.ap-south-1.compute.internal
+    - class
+    time: '2019-12-08T10:31:45.412076174Z'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  Schedule[puppet]:
+    title: puppet
+    file:
+    line:
+    resource: Schedule[puppet]
+    resource_type: Schedule
+    provider_used:
+    containment_path:
+    - Schedule[puppet]
+    evaluation_time: 0.000106478
+    tags:
+    - schedule
+    - puppet
+    time: '2019-12-08T10:31:45.415028772Z'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  Schedule[hourly]:
+    title: hourly
+    file:
+    line:
+    resource: Schedule[hourly]
+    resource_type: Schedule
+    provider_used:
+    containment_path:
+    - Schedule[hourly]
+    evaluation_time: 8.9063e-05
+    tags:
+    - schedule
+    - hourly
+    time: '2019-12-08T10:31:45.415208820Z'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  Schedule[daily]:
+    title: daily
+    file:
+    line:
+    resource: Schedule[daily]
+    resource_type: Schedule
+    provider_used:
+    containment_path:
+    - Schedule[daily]
+    evaluation_time: 0.000113623
+    tags:
+    - schedule
+    - daily
+    time: '2019-12-08T10:31:45.415406489Z'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  Schedule[weekly]:
+    title: weekly
+    file:
+    line:
+    resource: Schedule[weekly]
+    resource_type: Schedule
+    provider_used:
+    containment_path:
+    - Schedule[weekly]
+    evaluation_time: 8.1313e-05
+    tags:
+    - schedule
+    - weekly
+    time: '2019-12-08T10:31:45.415633576Z'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  Schedule[monthly]:
+    title: monthly
+    file:
+    line:
+    resource: Schedule[monthly]
+    resource_type: Schedule
+    provider_used:
+    containment_path:
+    - Schedule[monthly]
+    evaluation_time: 0.000101241
+    tags:
+    - schedule
+    - monthly
+    time: '2019-12-08T10:31:45.415820283Z'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  Schedule[never]:
+    title: never
+    file:
+    line:
+    resource: Schedule[never]
+    resource_type: Schedule
+    provider_used:
+    containment_path:
+    - Schedule[never]
+    evaluation_time: 6.0529e-05
+    tags:
+    - schedule
+    - never
+    time: '2019-12-08T10:31:45.416030665Z'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  Filebucket[puppet]:
+    title: puppet
+    file:
+    line:
+    resource: Filebucket[puppet]
+    resource_type: Filebucket
+    provider_used:
+    containment_path:
+    - Filebucket[puppet]
+    evaluation_time: 9.2414e-05
+    tags:
+    - filebucket
+    - puppet
+    time: '2019-12-08T10:31:45.416220351Z'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+corrective_change: false
+catalog_uuid: 5cfa2412-7cfb-4d22-800d-63f3a30e3898
+cached_catalog_status: on_failure

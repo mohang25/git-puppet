@@ -1,0 +1,103 @@
+--- !ruby/object:Puppet::Transaction::Report
+host: ip-172-31-5-224.ap-south-1.compute.internal
+time: '2019-12-01T11:38:46.914923069Z'
+configuration_version:
+transaction_uuid: 7d455479-9aa4-4f70-9952-f4d4271794c2
+report_format: 10
+puppet_version: 5.5.17
+status: failed
+transaction_completed: false
+noop: false
+noop_pending: false
+environment: production
+logs:
+- level: err
+  message: 'Could not retrieve catalog from remote server: Error 500 on SERVER: Server
+    Error: Could not parse for environment production: Syntax error at ''Ensure''
+    (file: /etc/puppetlabs/code/environments/production/manifests/manifest5.pp, line:
+    2, column: 1) on node ip-172-31-5-224.ap-south-1.compute.internal'
+  source: Puppet
+  tags:
+  - err
+  time: '2019-12-01T11:38:47.744632875Z'
+  file:
+  line:
+- level: err
+  message: Could not retrieve catalog; skipping run
+  source: Puppet
+  tags:
+  - err
+  time: '2019-12-01T11:38:47.744964761Z'
+  file:
+  line:
+metrics:
+  resources:
+    name: resources
+    label: Resources
+    values:
+    - - total
+      - Total
+      - 0
+    - - skipped
+      - Skipped
+      - 0
+    - - failed
+      - Failed
+      - 0
+    - - failed_to_restart
+      - Failed to restart
+      - 0
+    - - restarted
+      - Restarted
+      - 0
+    - - changed
+      - Changed
+      - 0
+    - - out_of_sync
+      - Out of sync
+      - 0
+    - - scheduled
+      - Scheduled
+      - 0
+    - - corrective_change
+      - Corrective change
+      - 0
+  time:
+    name: time
+    label: Time
+    values:
+    - - node_retrieval
+      - Node retrieval
+      - 0.3071801520000008
+    - - plugin_sync
+      - Plugin sync
+      - 0.17970827999999983
+    - - fact_generation
+      - Fact generation
+      - 0.10657841600004758
+    - - total
+      - Total
+      - 0.829970138
+  changes:
+    name: changes
+    label: Changes
+    values:
+    - - total
+      - Total
+      - 0
+  events:
+    name: events
+    label: Events
+    values:
+    - - total
+      - Total
+      - 0
+    - - failure
+      - Failure
+      - 0
+    - - success
+      - Success
+      - 0
+resource_statuses: {}
+corrective_change: false
+cached_catalog_status: not_used

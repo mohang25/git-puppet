@@ -1,0 +1,407 @@
+--- !ruby/object:Puppet::Transaction::Report
+host: ip-172-31-5-166.ap-south-1.compute.internal
+time: '2019-12-15T10:40:21.107473559Z'
+configuration_version: 1576406423
+transaction_uuid: 127b028f-8af3-48fd-932a-bcd9dd8b12ed
+report_format: 10
+puppet_version: 5.5.17
+status: unchanged
+transaction_completed: true
+noop: false
+noop_pending: false
+environment: production
+logs:
+- level: notice
+  message: Applied catalog in 0.16 seconds
+  source: Puppet
+  tags:
+  - notice
+  time: '2019-12-15T10:40:23.310326678Z'
+  file:
+  line:
+metrics:
+  resources:
+    name: resources
+    label: Resources
+    values:
+    - - total
+      - Total
+      - 11
+    - - skipped
+      - Skipped
+      - 0
+    - - failed
+      - Failed
+      - 0
+    - - failed_to_restart
+      - Failed to restart
+      - 0
+    - - restarted
+      - Restarted
+      - 0
+    - - changed
+      - Changed
+      - 0
+    - - out_of_sync
+      - Out of sync
+      - 0
+    - - scheduled
+      - Scheduled
+      - 0
+    - - corrective_change
+      - Corrective change
+      - 0
+  time:
+    name: time
+    label: Time
+    values:
+    - - package
+      - Package
+      - 0.00037165
+    - - file
+      - File
+      - 0.001611358
+    - - service
+      - Service
+      - 0.011180353
+    - - user
+      - User
+      - 0.000646902
+    - - schedule
+      - Schedule
+      - 0.00038495399999999996
+    - - filebucket
+      - Filebucket
+      - 0.00011734
+    - - node_retrieval
+      - Node retrieval
+      - 0.1543389210000896
+    - - plugin_sync
+      - Plugin sync
+      - 1.0281267430000298
+    - - fact_generation
+      - Fact generation
+      - 0.7154710659997363
+    - - convert_catalog
+      - Convert catalog
+      - 0.03858973700016577
+    - - config_retrieval
+      - Config retrieval
+      - 0.09268549399985204
+    - - transaction_evaluation
+      - Transaction evaluation
+      - 0.1510073630001898
+    - - catalog_application
+      - Catalog application
+      - 0.15733005499987485
+    - - total
+      - Total
+      - 2.19827482
+  changes:
+    name: changes
+    label: Changes
+    values:
+    - - total
+      - Total
+      - 0
+  events:
+    name: events
+    label: Events
+    values:
+    - - total
+      - Total
+      - 0
+    - - failure
+      - Failure
+      - 0
+    - - success
+      - Success
+      - 0
+resource_statuses:
+  Package[vsftpd]:
+    title: vsftpd
+    file: "/etc/puppetlabs/code/environments/production/modules/mymodule/manifests/subclass1.pp"
+    line: 2
+    resource: Package[vsftpd]
+    resource_type: Package
+    provider_used: yum
+    containment_path:
+    - Stage[main]
+    - Mymodule::Subclass1
+    - Package[vsftpd]
+    evaluation_time: 0.00037165
+    tags:
+    - package
+    - vsftpd
+    - class
+    - mymodule::subclass1
+    - mymodule
+    - subclass1
+    - node
+    - default
+    time: '2019-12-15T10:40:23.281911885Z'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  File[/var/ftp/pub]:
+    title: "/var/ftp/pub"
+    file: "/etc/puppetlabs/code/environments/production/modules/mymodule/manifests/subclass2.pp"
+    line: 2
+    resource: File[/var/ftp/pub]
+    resource_type: File
+    provider_used: posix
+    containment_path:
+    - Stage[main]
+    - Mymodule::Subclass2
+    - File[/var/ftp/pub]
+    evaluation_time: 0.001611358
+    tags:
+    - file
+    - class
+    - mymodule::subclass2
+    - mymodule
+    - subclass2
+    - node
+    - default
+    time: '2019-12-15T10:40:23.282866944Z'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  Service[vsftpd]:
+    title: vsftpd
+    file: "/etc/puppetlabs/code/environments/production/modules/mymodule/manifests/subclass3.pp"
+    line: 2
+    resource: Service[vsftpd]
+    resource_type: Service
+    provider_used: systemd
+    containment_path:
+    - Stage[main]
+    - Mymodule::Subclass3
+    - Service[vsftpd]
+    evaluation_time: 0.011180353
+    tags:
+    - service
+    - vsftpd
+    - class
+    - mymodule::subclass3
+    - mymodule
+    - subclass3
+    - node
+    - default
+    time: '2019-12-15T10:40:23.285092341Z'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  User[myuser1234]:
+    title: myuser1234
+    file: "/etc/puppetlabs/code/environments/production/modules/mymodule/manifests/subclass4.pp"
+    line: 2
+    resource: User[myuser1234]
+    resource_type: User
+    provider_used: useradd
+    containment_path:
+    - Stage[main]
+    - Mymodule::Subclass4
+    - User[myuser1234]
+    evaluation_time: 0.000646902
+    tags:
+    - user
+    - myuser1234
+    - class
+    - mymodule::subclass4
+    - mymodule
+    - subclass4
+    - node
+    - default
+    time: '2019-12-15T10:40:23.297224346Z'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  Schedule[puppet]:
+    title: puppet
+    file:
+    line:
+    resource: Schedule[puppet]
+    resource_type: Schedule
+    provider_used:
+    containment_path:
+    - Schedule[puppet]
+    evaluation_time: 6.4443e-05
+    tags:
+    - schedule
+    - puppet
+    time: '2019-12-15T10:40:23.298369896Z'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  Schedule[hourly]:
+    title: hourly
+    file:
+    line:
+    resource: Schedule[hourly]
+    resource_type: Schedule
+    provider_used:
+    containment_path:
+    - Schedule[hourly]
+    evaluation_time: 5.0252e-05
+    tags:
+    - schedule
+    - hourly
+    time: '2019-12-15T10:40:23.298526447Z'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  Schedule[daily]:
+    title: daily
+    file:
+    line:
+    resource: Schedule[daily]
+    resource_type: Schedule
+    provider_used:
+    containment_path:
+    - Schedule[daily]
+    evaluation_time: 5.1644e-05
+    tags:
+    - schedule
+    - daily
+    time: '2019-12-15T10:40:23.298804004Z'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  Schedule[weekly]:
+    title: weekly
+    file:
+    line:
+    resource: Schedule[weekly]
+    resource_type: Schedule
+    provider_used:
+    containment_path:
+    - Schedule[weekly]
+    evaluation_time: 4.8182e-05
+    tags:
+    - schedule
+    - weekly
+    time: '2019-12-15T10:40:23.298925441Z'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  Schedule[monthly]:
+    title: monthly
+    file:
+    line:
+    resource: Schedule[monthly]
+    resource_type: Schedule
+    provider_used:
+    containment_path:
+    - Schedule[monthly]
+    evaluation_time: 0.00012135
+    tags:
+    - schedule
+    - monthly
+    time: '2019-12-15T10:40:23.299077526Z'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  Schedule[never]:
+    title: never
+    file:
+    line:
+    resource: Schedule[never]
+    resource_type: Schedule
+    provider_used:
+    containment_path:
+    - Schedule[never]
+    evaluation_time: 4.9083e-05
+    tags:
+    - schedule
+    - never
+    time: '2019-12-15T10:40:23.299268293Z'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  Filebucket[puppet]:
+    title: puppet
+    file:
+    line:
+    resource: Filebucket[puppet]
+    resource_type: Filebucket
+    provider_used:
+    containment_path:
+    - Filebucket[puppet]
+    evaluation_time: 0.00011734
+    tags:
+    - filebucket
+    - puppet
+    time: '2019-12-15T10:40:23.299405168Z'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+corrective_change: false
+catalog_uuid: ae3d71de-e247-47f0-8871-f1e3b7708580
+cached_catalog_status: not_used

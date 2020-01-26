@@ -1,0 +1,2474 @@
+--- !ruby/object:Puppet::Transaction::Report
+host: ip-172-31-5-224.ap-south-1.compute.internal
+time: '2019-12-14T10:20:45.475585502Z'
+configuration_version: 1576318850
+transaction_uuid: 5af4330d-fb6d-47e8-a12a-2720995fe641
+report_format: 10
+puppet_version: 5.5.17
+status: unchanged
+transaction_completed: true
+noop: false
+noop_pending: false
+environment: production
+logs:
+- level: notice
+  message: created
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/facter]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:46.392839620Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}82a1f2646f4ce640c6dcea2bfcbbecc8'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/facter/facter_dot_d.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:46.446552573Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}b17127f4c7f20443f6c85c4836745bac'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/facter/package_provider.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:46.458627602Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}b2c9b4cbc4b69c2a377770f7189d3e94'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/facter/pe_version.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:46.471217793Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}d939328efb70ec800443c8515e885f69'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/facter/puppet_settings.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:46.484863532Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}c2a013cb787ef788c539980d3e954048'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/facter/root_home.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:46.495844784Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}66cc42526eae631e306b397391f1f01c'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/facter/service_provider.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:46.512359823Z'
+  file:
+  line:
+- level: notice
+  message: created
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/facter/util]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:46.514393309Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}f69007bcc02031cd772fa7f2dffa3c0c'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/facter/util/puppet_settings.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:46.529687725Z'
+  file:
+  line:
+- level: notice
+  message: created
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:46.531620285Z'
+  file:
+  line:
+- level: notice
+  message: created
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:46.533490030Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}9f7706a22f47383421bc10e712ff9d0a'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/deprecation.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:46.546858647Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}a457dbc9ec08144b0886a964e74ba8a1'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/fact.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:46.563140926Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}60372a583cc765976e7a49504de0684f'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/is_a.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:46.580420424Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}4d6a337eeb633639a58fb396b4d7176f'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/is_absolute_path.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:46.597976176Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}21d22504bf41733e1784e9a6c3dc59a5'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/is_array.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:46.617482323Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}baadfbdb76d9b7c3cb5f8159a53c5bf3'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/is_bool.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:46.629160216Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}b4327ddf6f33462b76f706ace51cea00'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/is_float.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:46.640248814Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}fee3d0323de6f9966ed92cab5eabdfb3'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/is_ip_address.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:46.651963925Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}5d262c46367303d24195fa54d1226a0c'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/is_ipv4_address.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:46.663490823Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}ac870a59c005cd54d3cd1028a650073c'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/is_ipv6_address.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:46.678483515Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}82ba88985c27ff7e5074baf2d3de0c19'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/is_numeric.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:46.694525606Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}d04e1e1312e2d5fe9cf91d9478aaa47a'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/is_string.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:46.709404163Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}d3a3bed61149d19e86c29c38fbf89a36'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/length.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:46.727060641Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}ebae086c10f411f4c5cc52ae0a084eb8'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/merge.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:46.744071325Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}7c32f86861a7bc6b6a04c12d072644e2'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/os_version_gte.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:46.760582999Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}58f5005c4d667c27a06451339dad8bac'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/seeded_rand_string.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:46.775691553Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}39a468b9c0f0bfbd319f19da28bdc9eb'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/sprintf_hash.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:46.790194626Z'
+  file:
+  line:
+- level: notice
+  message: created
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/stdlib]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:46.792217226Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}ddafe4ddf35f3be7bc2aebc5fd975c39'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/stdlib/extname.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:46.803291379Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}62820a0b4bdc207b0000a11ca339a2d3'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/stdlib/ip_in_range.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:46.823295760Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}9be02065dd8fc8b4c14cc7daa52119c5'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/to_json.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:46.837274335Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}886e2b23fc8b9060e73d93dfd5a82e57'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/to_json_pretty.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:46.855891004Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}8ce138d4f3ba93ee480311d5b753259e'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/to_yaml.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:46.878466511Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}6e7c6e50f6fe92c32f578a644dd66b66'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/type_of.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:46.893445835Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}5872ffdc5b0462eb5826ef10e614dc9d'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/validate_absolute_path.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:46.910672821Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}b219e008bc5441a7179faa01da0e98dd'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/validate_array.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:46.927789961Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}9468b5124a3956d8c8120c90a5bcd57a'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/validate_bool.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:46.945383179Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}cda57f161742d37b8a0248865dab7ee0'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/validate_hash.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:46.964343903Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}fd0c34b11d4327cfefc53c2294f222e7'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/validate_integer.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:46.984183944Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}f54d16dc96f7851c60e5964a64da2398'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/validate_ip_address.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:46.998594083Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}c205d7b710eb0c234f9661d8cc703039'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/validate_ipv4_address.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:47.018136482Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}6fb3fb641c996132ae0ac352ff2e9f23'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/validate_ipv6_address.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:47.038796765Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}7f4abc0b7fe49cf41847f2ee9d7562ed'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/validate_legacy.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:47.050065454Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}9cae03d48f6ca997fe3b4f482985f095'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/validate_numeric.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:47.060580701Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}55b302d7e594eb7557a0c6903cb4a3ac'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/validate_re.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:47.071155561Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}eb14887b0e4c7659681d045334283de8'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/validate_slength.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:47.081875384Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}0910a5c7de84edacafe8d00d1e86c2a1'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/functions/validate_string.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:47.092475150Z'
+  file:
+  line:
+- level: notice
+  message: created
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:47.094515299Z'
+  file:
+  line:
+- level: notice
+  message: created
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:47.096419528Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}1caab301efc51e6ac877eb310ea642e9'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/abs.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:47.120052025Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}f3bdf3cdd61c1a87c5c9892806cf9082'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/any2array.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:47.135469360Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}246bdf9237a49cd5fca8a46d0e5c3419'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/any2bool.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:47.146540595Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}5a847d20e2945f431d011ed77942be33'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/assert_private.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:47.157125231Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}75d1b726a0da0ab666375aaba1dfa05e'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/base64.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:47.167537731Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}193dee93291bbac4055f12004c69e898'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/basename.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:47.178084561Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}58e4e3d6902d77906edf512e4c9fd5ca'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/bool2num.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:47.188584200Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}c3282f7e658e951c3b562250f06070d6'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/bool2str.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:47.200361954Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}16a2e5a7c4980444ae412a832f6f799e'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/camelcase.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:47.216291417Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}1d6dccd218cf7816e99453ac9eb5495b'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/capitalize.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:47.232337431Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}0b1f1cc86e247a6264e2a694bc7460c5'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/ceiling.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:47.248570583Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}6b556817deaf53cafbfbe1126b5a7db2'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/chomp.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:47.264624572Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}6add3bc3fbfd419f96a5d0d627811dd9'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/chop.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:47.280711424Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}e2b41cb6c03b3f10c4573af79b020baa'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/clamp.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:47.291352879Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}c8552953e0677992f8930cbd26aa8c47'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/concat.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:47.302459616Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}d65d544dec14d9819f013d01b654455a'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/convert_base.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:47.313615761Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}cace9e26cf58c571842ff7146bc0579e'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/count.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:47.324209473Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}2796acbb37e779eb595ecf165788ab35'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/deep_merge.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:47.339856972Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}7f9a270365f9a047355a01492994e0ab'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/defined_with_params.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:47.351573562Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}1885535df5a4c06e39c16b98220b746d'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/delete.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:47.362554063Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}af1d44d9654694a7f6877b7e5b9ed639'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/delete_at.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:47.374014083Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}ad1e1ac49ad0589c20b433bd22da973d'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/delete_regex.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:47.385644664Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}bc1221ac34bfabc4ff8e808bdd854ebf'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/delete_undef_values.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:47.430365077Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}eadb784d5c678961f324679a615347d6'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/delete_values.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:47.442785465Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}cb5fdb8e71a888437ca2956d833edcf2'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/deprecation.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:47.453318318Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}ce4921704459ab9d412e9c6a76f08470'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/difference.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:47.463367212Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}babc1c588e32d7561b29e57460ceec31'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/dig.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:47.473317539Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}ad97e68abc70939375e7d8c156114994'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/dig44.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:47.489692140Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}825b61480896626794a632f465858ed0'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/dirname.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:47.500473888Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}6baffd01b4076fb3093d6a1659947625'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/dos2unix.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:47.511834989Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}15115685c59ad44ec0dd4d8c404c13c1'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/downcase.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:47.522471263Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}39c8cae896b5200049898257b5580b7b'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/empty.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:47.533110681Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}bc9e304cda8623148cf2b43eed50ee4e'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/enclose_ipv6.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:47.545170688Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}b8d8398536030e18b9a611adbbc4ead0'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/ensure_packages.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:47.560227841Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}ebc7ff4e6819f9a5571321ce94296622'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/ensure_resource.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:47.570535521Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}fbff17623dbfe7abe699e5e101a58666'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/ensure_resources.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:47.582123104Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}8eb8ee688df30854ee6102f7916b95d4'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/flatten.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:47.592741006Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}9a3726fb87f6f3e1d93bc1a1d6378dbd'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/floor.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:47.603138882Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}f891ff98c960078f9ae0fad60e3f3448'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/fqdn_rand_string.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:47.613773835Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}3411883e14b61afcfcf98f21c917b1be'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/fqdn_rotate.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:47.624101130Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}de08b8739e876a935aba2cd4948d2167'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/fqdn_uuid.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:47.634367667Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}7bce665daf99e68bd06bbec57b707f29'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/get_module_path.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:47.650664045Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}0ee6179adda0795ec38bc1e90eaa6591'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/getparam.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:47.679185954Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}7e943851d8be874b49e49e4b792e843f'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/getvar.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:47.691575613Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}506e79fd7ade56c13195c4cb11cad73e'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/glob.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:47.702996207Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}018e6930aed61e72c29a847295bf0740'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/grep.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:47.713253654Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}fa1bea02dabd790f1e33119b359cf7db'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/has_interface_with.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:47.723468314Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}35ee815f26129bcaf820fc6108f96bb6'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/has_ip_address.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:47.733748766Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}dd1dded44a27ee8052827c901c4d20bd'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/has_ip_network.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:47.745158355Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}44e5a56409ddee7c26f04cd50185aa17'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/has_key.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:47.760666337Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}d1d45cbb4a4fe27b4182a2c230026f94'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/hash.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:47.777054627Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}469b60a6a15b0380664039b8304c38cc'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/intersection.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:47.795412053Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}d1d6c130ba7231d5c4987ae30e45f4e2'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/is_absolute_path.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:47.812684478Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}4e4ca6ccfc2fd352351583f01989d10d'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/is_array.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:47.830799481Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}f1e09e73d4fca5ce0ffd0781de541b07'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/is_bool.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:47.847471494Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}b51986bab6685bfc8bd3117bd4be9322'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/is_domain_name.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:47.858388448Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}f3a126e7d3cb10a4b25bb3db631fe442'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/is_email_address.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:47.873506798Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}eff28cde457b69e50947fa1e462b6e11'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/is_float.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:47.890307418Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}20b970c665432431c0b1879027572dd0'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/is_function_available.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:47.907497416Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}afdce2b8afbf9f43267a351f8dd47425'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/is_hash.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:47.924039128Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}3a6b477144f55d46950dc06b049d98a1'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/is_integer.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:47.940573975Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}3ef677e90e7345cd12e886fde0561727'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/is_ip_address.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:47.957458473Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}3a125625891bde53b7a7e80981b69965'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/is_ipv4_address.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:47.974277449Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}f4bab5d4223aa5af9606b3843db0b99a'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/is_ipv6_address.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:47.990450227Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}25a695daa304d101ce42535341f85534'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/is_mac_address.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:48.006035689Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}400934c5f70239322f8ed3e77bd83c92'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/is_numeric.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:48.018683655Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}46f41a621ad827f24fdb0a4f95b1eb7b'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/is_string.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:48.035770304Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}94eb446f1c08c84245b3dc4d2c9f2575'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/join.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:48.047390041Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}7aa31c88062bff5de5763bca3b66c369'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/join_keys_to_values.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:48.064692451Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}22dc39591357405e98751147c3f59c05'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/keys.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:48.081726857Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}715a14fde1d65b3894dfdcff460e5d3b'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/load_module_metadata.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:48.100997073Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}e0b63ae98a9bd95bfe648607ab5e391f'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/loadjson.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:48.118011961Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}4e4370d56487bdc8c0fd7ebc94532b1b'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/loadyaml.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:48.134453984Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}1a536f290d87c2287f9cd4a6647b90ad'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/lstrip.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:48.151175467Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}80f3fadc7a4ef00c2cea938f5552687e'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/max.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:48.168655776Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}7b1dcef3f895d76a2250f4f998936b51'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/member.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:48.186606092Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}00d4573f8ccfb1b54cff984df3281770'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/merge.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:48.202491145Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}828e10db1bf46d880eba94c09367fc23'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/min.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:48.219171963Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}03101587ea7761f5d2043bef8a0e4813'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/num2bool.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:48.235356161Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}84edfcfbdfa9be8df246cd6263bf27a4'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/parsejson.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:48.251379408Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}a63c7b27e3bdaf363e288be9a4689b9f'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/parseyaml.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:48.268010021Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}f4e94df732ed5d209c9fc8db5ac35207'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/pick.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:48.283447011Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}17f442caa18d25075de2cd7abd65a791'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/pick_default.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:48.300525838Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}bcf32e7f5867dcb40ec0cdca8002329f'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/prefix.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:48.317423884Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}681d49c29c4b8df691a41e90df7e6500'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/private.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:48.334442872Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}5bac48462794f5d18d3ad30f1141aeb1'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/pry.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:48.351551312Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}f9c7c8896ba99b9262196e6ea67fa07c'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/pw_hash.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:48.368799048Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}3c445b69b908d96a388a1572cc359470'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/range.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:48.391172761Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}27fe5962756477de3fb71a646135e96c'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/regexpescape.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:48.409004597Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}4cceb698ed1d0a2f0fbe8e91c4f68a21'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/reject.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:48.424528075Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}0b3fe898d9418db6b3affbade6c035c3'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/reverse.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:48.441471360Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}e4d15bdb144ece4710608fd5356ab106'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/round.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:48.458298944Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}65ae5dd164e117a6d79595b47952ae05'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/rstrip.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:48.468619456Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}8a2f323648633466001af665b6f6c624'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/seeded_rand.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:48.479024481Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}5ed2fe520fcebb2ef46ecd6f8cf1d414'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/shell_escape.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:48.490078843Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}d048ff0d100edeb148cb7d5ef13f9c82'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/shell_join.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:48.500851849Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}5985ff9873995ed9d496935f81daee8a'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/shell_split.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:48.518645913Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}9873cf32c81535410732125b21b2876c'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/shuffle.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:48.538752241Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}fa2e1774d0373ed0e61aa7966b5f4737'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/size.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:48.557902545Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}11cb9d7293aafd907fe55b319fc64a9b'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/sort.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:48.573768303Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}8dd784412fbe111b13ce92744cdc1a29'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/squeeze.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:48.593387372Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}70775b38472584f0522ae032bd54502d'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/str2bool.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:48.609020267Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}37a123c3fca9cd8b3f472dc18227673f'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/str2saltedsha512.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:48.625243985Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}b526a0156b6f346ce64150a7263f1734'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/strftime.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:48.642117008Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}5fd70908ed62c6f6fb58098dbae3993e'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/strip.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:48.654012551Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}e986d3c52043586ed419b4689d27e745'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/suffix.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:48.670706061Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}e93d7a8e5eaa8e420234941a61199181'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/swapcase.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:48.684852607Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}911832e13dd13c3531ffbe1312aa22a0'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/time.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:48.696291928Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}9b4040cc7173e6747739a9a2490ba6a0'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/to_bytes.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:48.707974981Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}b1877fbff0a04c7beb15ddec3eae7b9e'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/try_get_value.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:48.724422759Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}a544624a9f720d7774b1f672dd4064a0'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/type.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:48.741464907Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}c8642e93f813bcfdb80476816b0bc596'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/type3x.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:48.757797933Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}72eeb4e9ca3edc0d6f44d70fe5385e34'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/union.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:48.774023670Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}04aad75f752f2c85442613da72ae7265'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/unique.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:48.792147370Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}ba608b4b35b8e1bc99bfc8ada0b329f6'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/unix2dos.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:48.810511483Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}5fff4d1a0a3ca212387749786d5c19e9'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/upcase.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:48.823097185Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}ee7242decf04d2d44a91d196f79e8488'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/uriescape.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:48.835509718Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}3d0d00999ebfd0c6bec4ac04a1b9b285'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/validate_absolute_path.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:48.847483426Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}9abed7f85fd4724fab21ff1073de8b41'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/validate_array.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:48.859115933Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}4a9795e7945193afe0fc3a614a2f6022'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/validate_augeas.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:48.871147474Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}f04a095d2c645329a748ddb3fd60798f'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/validate_bool.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:48.883604507Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}19537747b1df38084b968fbb4f6f0f17'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/validate_cmd.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:48.896694700Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}0f0be32a421c34e8df570f817f307617'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/validate_domain_name.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:48.910557873Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}a7af8b3f2bd4148a104e9dc1390d2faa'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/validate_email_address.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:48.921885077Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}e72a8b38f87586fed6616b23e4a3de5c'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/validate_hash.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:48.933285837Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}55277d89d5b6e13d889b784578730f74'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/validate_integer.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:48.945679720Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}093d46312d6dd618954c0076a8f667f7'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/validate_ip_address.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:48.956459296Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}65bb41c57c489f8032d1b892b4534061'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/validate_ipv4_address.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:48.966861627Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}abc96d513f8bd739c69cb78cd8811dc5'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/validate_ipv6_address.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:48.977316782Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}0f8225b9decf1c908e5c387ca039f2b0'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/validate_numeric.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:48.987368726Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}26ebeaba9c6b0d7c2ab2a7c1fadca37b'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/validate_re.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:48.997404905Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}fd26a0f026f12181801f18e9d7a27534'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/validate_slength.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:49.007740687Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}77fd937008ec3da670b5acf2c7920227'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/validate_string.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:49.019182039Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}bb34e2398eaaacf053dfb9c27be3442b'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/validate_x509_rsa_key_pair.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:49.030349171Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}f7d883ec3b76ae7a1ab7a8ed68feec06'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/values.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:49.071581358Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}4a88d4dd856930d9218b93c97ce9829c'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/values_at.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:49.083667824Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}186ad52bdd38054d2fcb42a32a80281f'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/parser/functions/zip.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:49.100463816Z'
+  file:
+  line:
+- level: notice
+  message: created
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/provider]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:49.103760739Z'
+  file:
+  line:
+- level: notice
+  message: created
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/provider/file_line]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:49.105718231Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}fb2376cadd33481286e5427489fdff00'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/provider/file_line/ruby.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:49.117588720Z'
+  file:
+  line:
+- level: notice
+  message: created
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/type]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:49.119566062Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}5a5df539a80bf1593b70d12a9ec3458f'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/type/anchor.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:49.130746659Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}5e944a6f40914fe71920ca1307127069'
+  source: "/File[/opt/puppetlabs/puppet/cache/lib/puppet/type/file_line.rb]/ensure"
+  tags:
+  - notice
+  - file
+  - plugin
+  time: '2019-12-14T10:20:49.141944761Z'
+  file:
+  line:
+- level: notice
+  message: created
+  source: "/File[/opt/puppetlabs/puppet/cache/locales/ja]/ensure"
+  tags:
+  - notice
+  - file
+  - locales
+  time: '2019-12-14T10:20:49.178131409Z'
+  file:
+  line:
+- level: notice
+  message: defined content as '{md5}805e5d893d2025ad57da8ec0614a6753'
+  source: "/File[/opt/puppetlabs/puppet/cache/locales/ja/puppetlabs-stdlib.po]/ensure"
+  tags:
+  - notice
+  - file
+  - locales
+  time: '2019-12-14T10:20:49.191018940Z'
+  file:
+  line:
+- level: notice
+  message: Applied catalog in 0.14 seconds
+  source: Puppet
+  tags:
+  - notice
+  time: '2019-12-14T10:20:50.317008415Z'
+  file:
+  line:
+metrics:
+  resources:
+    name: resources
+    label: Resources
+    values:
+    - - total
+      - Total
+      - 16
+    - - skipped
+      - Skipped
+      - 0
+    - - failed
+      - Failed
+      - 0
+    - - failed_to_restart
+      - Failed to restart
+      - 0
+    - - restarted
+      - Restarted
+      - 0
+    - - changed
+      - Changed
+      - 0
+    - - out_of_sync
+      - Out of sync
+      - 0
+    - - scheduled
+      - Scheduled
+      - 0
+    - - corrective_change
+      - Corrective change
+      - 0
+  time:
+    name: time
+    label: Time
+    values:
+    - - user
+      - User
+      - 0.002536126
+    - - file
+      - File
+      - 0.004633884
+    - - group
+      - Group
+      - 0.000235239
+    - - package
+      - Package
+      - 0.000356022
+    - - service
+      - Service
+      - 0.010185506
+    - - schedule
+      - Schedule
+      - 0.000412845
+    - - filebucket
+      - Filebucket
+      - 5.545e-05
+    - - node_retrieval
+      - Node retrieval
+      - 0.15350404700029685
+    - - plugin_sync
+      - Plugin sync
+      - 3.5882737880001514
+    - - fact_generation
+      - Fact generation
+      - 0.7448262140001134
+    - - convert_catalog
+      - Convert catalog
+      - 0.04243921599982059
+    - - config_retrieval
+      - Config retrieval
+      - 0.1552896910002346
+    - - transaction_evaluation
+      - Transaction evaluation
+      - 0.12809000000015658
+    - - catalog_application
+      - Catalog application
+      - 0.13824118399998042
+    - - total
+      - Total
+      - 4.836946261
+  changes:
+    name: changes
+    label: Changes
+    values:
+    - - total
+      - Total
+      - 0
+  events:
+    name: events
+    label: Events
+    values:
+    - - total
+      - Total
+      - 0
+    - - failure
+      - Failure
+      - 0
+    - - success
+      - Success
+      - 0
+resource_statuses:
+  User[myuser]:
+    title: myuser
+    file: "/etc/puppetlabs/code/environments/production/manifests/manifest.pp"
+    line: 1
+    resource: User[myuser]
+    resource_type: User
+    provider_used: useradd
+    containment_path:
+    - Stage[main]
+    - Main
+    - User[myuser]
+    evaluation_time: 0.00192137
+    tags:
+    - user
+    - myuser
+    - class
+    time: '2019-12-14T10:20:50.187511646Z'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  File[/root/myfile123.txt]:
+    title: "/root/myfile123.txt"
+    file: "/etc/puppetlabs/code/environments/production/manifests/manifest2.pp"
+    line: 1
+    resource: File[/root/myfile123.txt]
+    resource_type: File
+    provider_used: posix
+    containment_path:
+    - Stage[main]
+    - Main
+    - File[/root/myfile123.txt]
+    evaluation_time: 0.001425348
+    tags:
+    - file
+    - class
+    time: '2019-12-14T10:20:50.189572689Z'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  Group[mygroup]:
+    title: mygroup
+    file: "/etc/puppetlabs/code/environments/production/manifests/manifest3.pp"
+    line: 1
+    resource: Group[mygroup]
+    resource_type: Group
+    provider_used: groupadd
+    containment_path:
+    - Stage[main]
+    - Main
+    - Group[mygroup]
+    evaluation_time: 0.000235239
+    tags:
+    - group
+    - mygroup
+    - class
+    time: '2019-12-14T10:20:50.191218109Z'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  Package[httpd]:
+    title: httpd
+    file: "/etc/puppetlabs/code/environments/production/manifests/manifest5.pp"
+    line: 1
+    resource: Package[httpd]
+    resource_type: Package
+    provider_used: yum
+    containment_path:
+    - Stage[main]
+    - Main
+    - Package[httpd]
+    evaluation_time: 0.000356022
+    tags:
+    - package
+    - httpd
+    - class
+    time: '2019-12-14T10:20:50.284430992Z'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  File[/var/www/html/index.html]:
+    title: "/var/www/html/index.html"
+    file: "/etc/puppetlabs/code/environments/production/manifests/manifest5.pp"
+    line: 5
+    resource: File[/var/www/html/index.html]
+    resource_type: File
+    provider_used: posix
+    containment_path:
+    - Stage[main]
+    - Main
+    - File[/var/www/html/index.html]
+    evaluation_time: 0.00160044
+    tags:
+    - file
+    - class
+    time: '2019-12-14T10:20:50.284974677Z'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  Service[httpd]:
+    title: httpd
+    file: "/etc/puppetlabs/code/environments/production/manifests/manifest5.pp"
+    line: 11
+    resource: Service[httpd]
+    resource_type: Service
+    provider_used: systemd
+    containment_path:
+    - Stage[main]
+    - Main
+    - Service[httpd]
+    evaluation_time: 0.010185506
+    tags:
+    - service
+    - httpd
+    - class
+    time: '2019-12-14T10:20:50.286832516Z'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  User[ec2-user]:
+    title: ec2-user
+    file: "/etc/puppetlabs/code/environments/production/manifests/mymanifest55.pp"
+    line: 2
+    resource: User[ec2-user]
+    resource_type: User
+    provider_used: useradd
+    containment_path:
+    - Stage[main]
+    - Main
+    - User[ec2-user]
+    evaluation_time: 0.000349429
+    tags:
+    - user
+    - ec2-user
+    - class
+    time: '2019-12-14T10:20:50.297342249Z'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  User[user2]:
+    title: user2
+    file: "/etc/puppetlabs/code/environments/production/manifests/site.pp"
+    line: 18
+    resource: User[user2]
+    resource_type: User
+    provider_used: useradd
+    containment_path:
+    - Stage[main]
+    - Main
+    - Node[ip-172-31-5-224.ap-south-1.compute.internal]
+    - User[user2]
+    evaluation_time: 0.000265327
+    tags:
+    - user
+    - user2
+    - node
+    - ip-172-31-5-224.ap-south-1.compute.internal
+    - class
+    time: '2019-12-14T10:20:50.298166048Z'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  File[/root/document]:
+    title: "/root/document"
+    file: "/etc/puppetlabs/code/environments/production/manifests/site.pp"
+    line: 22
+    resource: File[/root/document]
+    resource_type: File
+    provider_used: posix
+    containment_path:
+    - Stage[main]
+    - Main
+    - Node[ip-172-31-5-224.ap-south-1.compute.internal]
+    - File[/root/document]
+    evaluation_time: 0.001608096
+    tags:
+    - file
+    - node
+    - ip-172-31-5-224.ap-south-1.compute.internal
+    - class
+    time: '2019-12-14T10:20:50.298577997Z'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  Schedule[puppet]:
+    title: puppet
+    file:
+    line:
+    resource: Schedule[puppet]
+    resource_type: Schedule
+    provider_used:
+    containment_path:
+    - Schedule[puppet]
+    evaluation_time: 0.000148843
+    tags:
+    - schedule
+    - puppet
+    time: '2019-12-14T10:20:50.300776676Z'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  Schedule[hourly]:
+    title: hourly
+    file:
+    line:
+    resource: Schedule[hourly]
+    resource_type: Schedule
+    provider_used:
+    containment_path:
+    - Schedule[hourly]
+    evaluation_time: 4.5786e-05
+    tags:
+    - schedule
+    - hourly
+    time: '2019-12-14T10:20:50.300996412Z'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  Schedule[daily]:
+    title: daily
+    file:
+    line:
+    resource: Schedule[daily]
+    resource_type: Schedule
+    provider_used:
+    containment_path:
+    - Schedule[daily]
+    evaluation_time: 4.5942e-05
+    tags:
+    - schedule
+    - daily
+    time: '2019-12-14T10:20:50.301110808Z'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  Schedule[weekly]:
+    title: weekly
+    file:
+    line:
+    resource: Schedule[weekly]
+    resource_type: Schedule
+    provider_used:
+    containment_path:
+    - Schedule[weekly]
+    evaluation_time: 4.6518e-05
+    tags:
+    - schedule
+    - weekly
+    time: '2019-12-14T10:20:50.301271771Z'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  Schedule[monthly]:
+    title: monthly
+    file:
+    line:
+    resource: Schedule[monthly]
+    resource_type: Schedule
+    provider_used:
+    containment_path:
+    - Schedule[monthly]
+    evaluation_time: 4.4813e-05
+    tags:
+    - schedule
+    - monthly
+    time: '2019-12-14T10:20:50.301387281Z'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  Schedule[never]:
+    title: never
+    file:
+    line:
+    resource: Schedule[never]
+    resource_type: Schedule
+    provider_used:
+    containment_path:
+    - Schedule[never]
+    evaluation_time: 8.0943e-05
+    tags:
+    - schedule
+    - never
+    time: '2019-12-14T10:20:50.301494651Z'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+  Filebucket[puppet]:
+    title: puppet
+    file:
+    line:
+    resource: Filebucket[puppet]
+    resource_type: Filebucket
+    provider_used:
+    containment_path:
+    - Filebucket[puppet]
+    evaluation_time: 5.545e-05
+    tags:
+    - filebucket
+    - puppet
+    time: '2019-12-14T10:20:50.301662876Z'
+    failed: false
+    failed_to_restart: false
+    changed: false
+    out_of_sync: false
+    skipped: false
+    change_count: 0
+    out_of_sync_count: 0
+    events: []
+    corrective_change: false
+corrective_change: false
+catalog_uuid: 4f2f0b18-bd7d-42c6-b7f8-faf3a1e2dd73
+cached_catalog_status: not_used

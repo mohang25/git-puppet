@@ -1,0 +1,94 @@
+--- !ruby/object:Puppet::Transaction::Report
+host: ip-172-31-5-224.ap-south-1.compute.internal
+time: '2019-12-07T10:20:45.179522260Z'
+configuration_version:
+transaction_uuid: 4604d5fe-9c5c-420b-ae8d-4af656aa5b60
+report_format: 10
+puppet_version: 5.5.17
+status: failed
+transaction_completed: false
+noop: false
+noop_pending: false
+environment: production
+logs:
+- level: err
+  message: 'Failed to apply catalog: Parameter path failed on File[root/ad-hocfile]:
+    File paths must be fully qualified, not ''root/ad-hocfile'' (file: /etc/puppetlabs/code/environments/production/manifests/site.pp,
+    line: 9)'
+  source: Puppet
+  tags:
+  - err
+  time: '2019-12-07T10:20:46.360071354Z'
+  file:
+  line:
+metrics:
+  resources:
+    name: resources
+    label: Resources
+    values:
+    - - total
+      - Total
+      - 0
+    - - skipped
+      - Skipped
+      - 0
+    - - failed
+      - Failed
+      - 0
+    - - failed_to_restart
+      - Failed to restart
+      - 0
+    - - restarted
+      - Restarted
+      - 0
+    - - changed
+      - Changed
+      - 0
+    - - out_of_sync
+      - Out of sync
+      - 0
+    - - scheduled
+      - Scheduled
+      - 0
+    - - corrective_change
+      - Corrective change
+      - 0
+  time:
+    name: time
+    label: Time
+    values:
+    - - node_retrieval
+      - Node retrieval
+      - 0.1543289480000567
+    - - plugin_sync
+      - Plugin sync
+      - 0.15821723499993823
+    - - fact_generation
+      - Fact generation
+      - 0.10566278900023462
+    - - total
+      - Total
+      - 1.174397549
+  changes:
+    name: changes
+    label: Changes
+    values:
+    - - total
+      - Total
+      - 0
+  events:
+    name: events
+    label: Events
+    values:
+    - - total
+      - Total
+      - 0
+    - - failure
+      - Failure
+      - 0
+    - - success
+      - Success
+      - 0
+resource_statuses: {}
+corrective_change: false
+cached_catalog_status: not_used

@@ -1,0 +1,80 @@
+---
+File[/etc/puppetlabs/puppet]:
+  :checked: 2019-11-30 11:09:43.302809787 +00:00
+File[/etc/puppetlabs/code]:
+  :checked: 2019-11-30 11:09:43.304068181 +00:00
+File[/opt/puppetlabs/puppet/cache]:
+  :checked: 2019-11-30 11:09:43.305265120 +00:00
+File[/var/log/puppetlabs/puppet]:
+  :checked: 2019-11-30 11:09:43.306659151 +00:00
+File[/opt/puppetlabs/puppet/cache/state]:
+  :checked: 2019-11-30 11:09:43.308028026 +00:00
+File[/var/run/puppetlabs]:
+  :checked: 2019-11-30 11:09:43.309310878 +00:00
+File[/opt/puppetlabs/puppet/cache/lib]:
+  :checked: 2019-11-30 11:09:43.310566045 +00:00
+File[/etc/puppetlabs/puppet/hiera.yaml]:
+  :checked: 2019-11-30 11:09:43.311873020 +00:00
+File[/opt/puppetlabs/puppet/cache/preview]:
+  :checked: 2019-11-30 11:09:43.313140416 +00:00
+File[/etc/puppetlabs/puppet/ssl]:
+  :checked: 2019-11-30 11:09:43.314560699 +00:00
+File[/etc/puppetlabs/puppet/ssl/certs]:
+  :checked: 2019-11-30 11:09:43.316028713 +00:00
+File[/etc/puppetlabs/puppet/ssl/public_keys]:
+  :checked: 2019-11-30 11:09:43.318209800 +00:00
+File[/etc/puppetlabs/puppet/ssl/certificate_requests]:
+  :checked: 2019-11-30 11:09:43.319625416 +00:00
+File[/etc/puppetlabs/puppet/ssl/private_keys]:
+  :checked: 2019-11-30 11:09:43.320981494 +00:00
+File[/etc/puppetlabs/puppet/ssl/private]:
+  :checked: 2019-11-30 11:09:43.322340940 +00:00
+File[/etc/puppetlabs/puppet/ssl/private_keys/ip-172-31-4-75.ap-south-1.compute.internal.pem]:
+  :checked: 2019-11-30 11:09:43.323640363 +00:00
+File[/etc/puppetlabs/puppet/ssl/public_keys/ip-172-31-4-75.ap-south-1.compute.internal.pem]:
+  :checked: 2019-11-30 11:09:43.324995268 +00:00
+File[/opt/puppetlabs/puppet/cache/client_yaml]:
+  :checked: 2019-11-30 11:09:43.326322016 +00:00
+File[/opt/puppetlabs/puppet/cache/client_data]:
+  :checked: 2019-11-30 11:09:43.327549864 +00:00
+File[/opt/puppetlabs/puppet/cache/clientbucket]:
+  :checked: 2019-11-30 11:09:43.328798842 +00:00
+File[/opt/puppetlabs/puppet/cache/state/graphs]:
+  :checked: 2019-11-30 11:09:43.329995314 +00:00
+File[/opt/puppetlabs/puppet/cache/facts.d]:
+  :checked: 2019-11-30 11:09:43.331225784 +00:00
+File[/opt/puppetlabs/puppet/cache/locales]:
+  :checked: 2019-11-30 11:09:43.332466618 +00:00
+File[/etc/puppetlabs/code/environments/production]:
+  :checked: 2019-11-30 11:09:43.333747858 +00:00
+:configuration: {}
+Stage[main]:
+  :checked: 2019-12-07 11:27:02.654892889 +00:00
+Class[Settings]:
+  :checked: 2019-12-07 11:27:02.652454461 +00:00
+Class[Main]:
+  :checked: 2019-12-07 11:27:02.654403975 +00:00
+User[myuser]:
+  :checked: 2019-12-01 11:18:13.873354103 +00:00
+  :synced: 2019-12-01 01:59:43.525514259 +00:00
+Schedule[puppet]:
+  :checked: 2019-12-07 11:27:02.655223734 +00:00
+Schedule[hourly]:
+  :checked: 2019-12-07 11:27:02.655336654 +00:00
+Schedule[daily]:
+  :checked: 2019-12-07 11:27:02.655461397 +00:00
+Schedule[weekly]:
+  :checked: 2019-12-07 11:27:02.655596027 +00:00
+Schedule[monthly]:
+  :checked: 2019-12-07 11:27:02.655704347 +00:00
+Schedule[never]:
+  :checked: 2019-12-07 11:27:02.655805688 +00:00
+Filebucket[puppet]:
+  :checked: 2019-12-07 11:27:02.655931062 +00:00
+File[/root/myfile123/txt]:
+  :checked: 2019-12-01 10:34:15.115827429 +00:00
+File[/root/myfile123.txt]:
+  :checked: 2019-12-01 10:45:58.746487168 +00:00
+  :synced: 2019-12-01 10:45:58.876172683 +00:00
+User[ec2-user]:
+  :checked: 2019-12-07 11:27:02.653104992 +00:00

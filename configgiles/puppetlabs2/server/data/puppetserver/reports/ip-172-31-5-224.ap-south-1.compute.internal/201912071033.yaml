@@ -1,0 +1,134 @@
+--- !ruby/object:Puppet::Transaction::Report
+host: ip-172-31-5-224.ap-south-1.compute.internal
+time: '2019-12-07T10:33:55.207783967Z'
+configuration_version:
+transaction_uuid: 41f59981-e9c4-443d-accf-b87b79025cd7
+report_format: 10
+puppet_version: 5.5.17
+status: failed
+transaction_completed: false
+noop: false
+noop_pending: false
+environment: production
+logs:
+- level: info
+  message: Using configured environment 'production'
+  source: Puppet
+  tags:
+  - info
+  time: '2019-12-07T10:33:55.333842759Z'
+  file:
+  line:
+- level: info
+  message: Retrieving pluginfacts
+  source: Puppet
+  tags:
+  - info
+  time: '2019-12-07T10:33:55.334125232Z'
+  file:
+  line:
+- level: info
+  message: Retrieving plugin
+  source: Puppet
+  tags:
+  - info
+  time: '2019-12-07T10:33:55.387146221Z'
+  file:
+  line:
+- level: info
+  message: Retrieving locales
+  source: Puppet
+  tags:
+  - info
+  time: '2019-12-07T10:33:55.407359325Z'
+  file:
+  line:
+- level: info
+  message: Caching catalog for ip-172-31-5-224.ap-south-1.compute.internal
+  source: Puppet
+  tags:
+  - info
+  time: '2019-12-07T10:33:55.643370640Z'
+  file:
+  line:
+- level: err
+  message: 'Failed to apply catalog: Parameter path failed on File[root/ad-hocfile]:
+    File paths must be fully qualified, not ''root/ad-hocfile'' (file: /etc/puppetlabs/code/environments/production/manifests/site.pp,
+    line: 9)'
+  source: Puppet
+  tags:
+  - err
+  time: '2019-12-07T10:33:56.293960275Z'
+  file:
+  line:
+metrics:
+  resources:
+    name: resources
+    label: Resources
+    values:
+    - - total
+      - Total
+      - 0
+    - - skipped
+      - Skipped
+      - 0
+    - - failed
+      - Failed
+      - 0
+    - - failed_to_restart
+      - Failed to restart
+      - 0
+    - - restarted
+      - Restarted
+      - 0
+    - - changed
+      - Changed
+      - 0
+    - - out_of_sync
+      - Out of sync
+      - 0
+    - - scheduled
+      - Scheduled
+      - 0
+    - - corrective_change
+      - Corrective change
+      - 0
+  time:
+    name: time
+    label: Time
+    values:
+    - - node_retrieval
+      - Node retrieval
+      - 0.12327357099957226
+    - - plugin_sync
+      - Plugin sync
+      - 0.11979845199994088
+    - - fact_generation
+      - Fact generation
+      - 0.10178052600031151
+    - - total
+      - Total
+      - 1.083730642
+  changes:
+    name: changes
+    label: Changes
+    values:
+    - - total
+      - Total
+      - 0
+  events:
+    name: events
+    label: Events
+    values:
+    - - total
+      - Total
+      - 0
+    - - failure
+      - Failure
+      - 0
+    - - success
+      - Success
+      - 0
+resource_statuses: {}
+corrective_change: false
+cached_catalog_status: not_used
